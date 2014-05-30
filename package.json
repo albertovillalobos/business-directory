@@ -1,6 +1,7 @@
 {
   "name": "businessdirectory",
   "version": "0.0.0",
+  "author" : "Alberto Villalobos",
   "dependencies": {
     "express": "~4.0.0",
     "morgan": "~1.0.0",

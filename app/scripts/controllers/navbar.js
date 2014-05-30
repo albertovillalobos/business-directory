@@ -6,6 +6,15 @@ angular.module('businessDirectoryApp')
       'title': 'Home',
       'link': '/'
     }, {
+      'title': 'Deals',
+      'link': '/deals'      
+    }, {
+      'title': 'Participants',
+      'link': '/deals'      
+    }, {
+      'title': 'How it works',
+      'link': '/deals'      
+    }, {
       'title': 'Settings',
       'link': '/settings'
     }];
