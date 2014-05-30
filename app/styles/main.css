@@ -5,7 +5,6 @@
 }
 
 
-/* Space out content a bit */
 body {
   font-family: "Syncopate";
   padding-top: 20px;
@@ -15,6 +14,35 @@ body {
   color: white;
 
 }
+
+
+/* ==========================================================================
+  Universal Helpers
+========================================================================== */
+
+.text-justify {
+    text-align: justify;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize !important;
+}
+
+.lowercase {
+    text-transform: lowercase !important;
+}
+
+.normalcase {
+    text-transform: none !important;   
+}
+
+/* ==========================================================================
+  Mobile first stuff
+========================================================================== */
 
 
 .navbar-inverse {
@@ -41,6 +69,14 @@ body {
 }
 
 
+
+
+/* ==========================================================================
+  Medium Screens
+========================================================================== */
+
+
+
 @media (min-width: 768px) {
     .navbar .navbar-nav {
         display: inline-block;
@@ -53,3 +89,13 @@ body {
         text-align: center;
     }
 }
+
+/* ==========================================================================
+  Larger Screens
+========================================================================== */
+
+@media (min-width: 1200px) {
+
+}
+
+
