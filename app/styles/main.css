@@ -40,6 +40,7 @@ body {
     text-transform: none !important;   
 }
 
+
 /* ==========================================================================
   Mobile first stuff
 ========================================================================== */
@@ -68,6 +69,31 @@ body {
 
 }
 
+
+
+
+input.form-control {
+  border-radius: 25px; 
+  padding: 10px;
+  background: transparent; 
+  border: solid 1px white; 
+  color:white;
+}
+
+input.form-control::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+input.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #fff;
+    opacity:  1;
+}
+input.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #fff;
+    opacity:  1;
+}
+input.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #fff;
+}
 
 
 

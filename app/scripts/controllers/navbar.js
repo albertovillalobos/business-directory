@@ -3,17 +3,14 @@
 angular.module('businessDirectoryApp')
   .controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [{
-      'title': 'Home',
+      'title': 'Deals',
       'link': '/'
     }, {
-      'title': 'Deals',
-      'link': '/deals'      
-    }, {
       'title': 'Participants',
-      'link': '/deals'      
+      'link': '/participants'      
     }, {
       'title': 'How it works',
-      'link': '/deals'      
+      'link': '/how-it-works'      
     }, {
       'title': 'Settings',
       'link': '/settings'
