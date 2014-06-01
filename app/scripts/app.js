@@ -25,6 +25,11 @@ angular.module('businessDirectoryApp', [
         controller: 'SettingsCtrl',
         authenticate: true
       })
+      .when('/admin', {
+        templateUrl: 'partials/admin',
+        controller: 'AdminCtrl',
+        authenticate: true
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -1,0 +1,25 @@
+<div ng-include="'partials/navbar'"></div>
+<div class="container">
+	<center><h1>Add new company</h1></center>
+	<form role="form" action="/admin">
+		<div class="form-group">
+			<label for="company-name">Company Name</label>
+			<input type="text" class="form-control" id="company-name" placeholder="Enter company name" required>
+		</div>
+		<div class="form-group">
+			<label for="company-description">Company Description</label>
+			<input type="text" class="form-control" id="company-description" placeholder="Enter company description" required>
+		</div>
+		<div class="form-group">
+			<label for="company-logo">Upload Logo</label>
+			<input type="file" id="company-logo">
+			<!-- <p class="help-block">Example block-level help text here.</p> -->
+		</div>
+		<div class="checkbox">
+			<label>
+				<input type="checkbox" required> I've verified Everything
+			</label>
+		</div>
+		<button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
