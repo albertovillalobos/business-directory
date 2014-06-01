@@ -6,15 +6,25 @@
 
 
 body {
-  font-family: "Syncopate";
+  /*font-family: "Syncopate";*/
+  /*font-family: "Helve"*/
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
+  /*letter-spacing: 2px;*/
+  font-size: 18px;
+  font-weight: 100;
   padding-top: 20px;
   padding-bottom: 20px;
   background-image: url('../images/cool-background.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
 
 }
-
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 100;
+  letter-spacing: 2px;
+}
 
 /* ==========================================================================
   Universal Helpers
@@ -73,6 +83,7 @@ body {
 
 
 input.form-control {
+  font-size: 18px;
   border-radius: 25px; 
   padding: 10px;
   background: transparent; 

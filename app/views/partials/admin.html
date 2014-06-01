@@ -1,19 +1,18 @@
 <div ng-include="'partials/navbar'"></div>
 <div class="container">
 	<center><h1>Add new company</h1></center>
-	<form role="form" action="/admin">
+	<form role="form" ng-submit="createCompany()" ng-controller="AdminCtrl">
 		<div class="form-group">
 			<label for="company-name">Company Name</label>
-			<input type="text" class="form-control" id="company-name" placeholder="Enter company name" required>
+			<input type="text" class="form-control" id="company-name" placeholder="Enter company name" required ng-model="formData.name">
 		</div>
 		<div class="form-group">
 			<label for="company-description">Company Description</label>
-			<input type="text" class="form-control" id="company-description" placeholder="Enter company description" required>
+			<input type="text" class="form-control" id="company-description" placeholder="Enter company description" required ng-model="formData.description">
 		</div>
 		<div class="form-group">
 			<label for="company-logo">Upload Logo</label>
-			<input type="file" id="company-logo">
-			<!-- <p class="help-block">Example block-level help text here.</p> -->
+			<input type="file" id="company-logo" ng-model="formData.logo">
 		</div>
 		<div class="checkbox">
 			<label>
