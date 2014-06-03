@@ -6,10 +6,9 @@
 
 
 body {
-  /*font-family: "Syncopate";*/
-  /*font-family: "Helve"*/
+
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;  
-  /*letter-spacing: 2px;*/
+
   font-size: 18px;
   font-weight: 100;
   padding-top: 20px;
@@ -92,18 +91,18 @@ input.form-control {
 }
 
 input.form-control::-webkit-input-placeholder { /* WebKit browsers */
-    color:    #fff;
+    color:    #999;
 }
 input.form-control:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    color:    #fff;
+    color:    #999;
     opacity:  1;
 }
 input.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
-    color:    #fff;
+    color:    #999;
     opacity:  1;
 }
 input.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
-    color:    #fff;
+    color:    #999;
 }
 
 
